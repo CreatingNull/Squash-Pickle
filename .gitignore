@@ -1,0 +1,23 @@
+# Log Files
+logs/
+*.log
+
+# Database Files
+*.db
+
+# PyCharm Projects
+.idea/
+
+# Pytest dirs
+__pycache__/
+.pytest_cache/
+
+# Ignore dev virtual enviroment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
