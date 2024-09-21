@@ -5,6 +5,12 @@ logs/
 # Database Files
 *.db
 
+# Ignore built / packaged code
+dist/
+build/
+bin/
+*.egg-info
+
 # PyCharm Projects
 .idea/
 
