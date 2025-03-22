@@ -1,7 +1,7 @@
 Version 0.1.1
 -------------
 
-:Date: TBC
+:Date: 22-March-2025
 
 * Distributed docs updated.
 * Adding python 3.13 support.
