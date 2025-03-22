@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright © `2024` [Nulltek](https://nulltek.xyz) `Steve Richardson (Creating Null)`
+Copyright © `2025` [Nulltek](https://nulltek.xyz) `Steve Richardson (Creating Null)`
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
