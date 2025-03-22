@@ -5,7 +5,7 @@ Like a pickle, only smaller\*.
 Tiny python package that compresses your pickles using gzip.
 Quacks like a pickle.
 
-\* For small objects (\< 100 bytes) gzip overhead can end up increasing size.
+\* For small objects (< 100 bytes) gzip overhead can end up increasing size.
 Only squash your pickles when you are working with big objects.
 
 ______________________________________________________________________
