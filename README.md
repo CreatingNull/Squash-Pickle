@@ -5,7 +5,7 @@ Like a pickle, only smaller\*.
 Tiny python package that compresses your pickles using gzip.
 Quacks like a pickle.
 
-\* For small objects (< 100 bytes) gzip overhead can end up increasing size.
+\* For small objects (\< 100 bytes) gzip overhead can end up increasing size.
 Only squash your pickles when you are working with big objects.
 
 ______________________________________________________________________
@@ -21,7 +21,7 @@ pip install squashpickle
 Then simply replace your `pickle` calls with `sqaushpickle` ones.
 `squashpickle` implements, `dump`, `dumps`, `load`, and `loads` functions.
 
-------------------------------------------------------------------------
+______________________________________________________________________
 
 ## Performance
 
@@ -43,5 +43,5 @@ print(len(pickle.dumps(df)), len(squashpickle.dumps(df)))
 ```
 
 As with any compression, there is a performance cost to achieving the smaller files.
-For objects <1MB this is hardly noticeable, but for objects hundreds of MBs the delay can be significant.
+For objects \<1MB this is hardly noticeable, but for objects hundreds of MBs the delay can be significant.
 It'll depend on your use case if this is a worthwhile tradeoff.
