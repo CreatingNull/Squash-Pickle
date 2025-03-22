@@ -1,5 +1,11 @@
 # ![Logo](resources/Squash-Pickle.png) Squash Pickle
 
+[![License](https://img.shields.io/:license-mit-blue.svg)](https://github.com/CreatingNull/Squash-Pickle/blob/master/LICENSE.md)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/squashpickle?logo=python&logoColor=white)](https://pypi.org/project/squashpickle/)
+[![PyPI](https://img.shields.io/pypi/v/squashpickle?logo=pypi&logoColor=white)](https://pypi.org/project/squashpickle/#history)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/CreatingNull/Squash-Pickle/main.svg)](https://results.pre-commit.ci/latest/github/CreatingNull/Squash-Pickle/main)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/CreatingNull/squash-pickle/run-tests.yaml?branch=main&label=tests&logo=github)](https://github.com/CreatingNull/squash-pickle/actions/workflows/run-tests.yaml)
+
 Like a pickle, only smaller\*.
 
 Tiny python package that compresses your pickles using gzip.
