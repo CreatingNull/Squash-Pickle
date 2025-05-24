@@ -1,3 +1,13 @@
+Version 0.1.2
+-------------
+
+:Date: TBC
+
+* Using a modern SPDX license expression.clear
+* Adding keywords to package.
+* Using pyproject to store dev dependencies instead of requirements-development.
+* Using uv for workspace configuration.
+
 Version 0.1.1
 -------------
 
