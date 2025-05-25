@@ -1,7 +1,7 @@
 Version 0.1.2
 -------------
 
-:Date: TBC
+:Date: 25-May-2025
 
 * Using a modern SPDX license expression.clear
 * Adding keywords to package.
