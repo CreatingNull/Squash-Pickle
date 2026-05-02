@@ -2,7 +2,7 @@
 repos:
 
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer
@@ -22,7 +22,7 @@ repos:
 
 # Check for common yaml errors
 -   repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.37.1
+    rev: v1.38.0
     hooks:
     -   id: yamllint
         args: [--no-warnings, -d, "{extends: relaxed, rules: {new-lines: disable}}"]
@@ -30,7 +30,7 @@ repos:
 # Format markdown docs.
 -   repo: https://github.com/executablebooks/mdformat
     # Do this before other tools "fixing" the line endings
-    rev: 0.7.22
+    rev: 1.0.0
     hooks:
     -   id: mdformat
         args: [--number, --end-of-line=keep]
@@ -41,7 +41,7 @@ repos:
 
 # Lint and Format code
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: 'v0.11.11'
+  rev: 'v0.15.12'
   hooks:
     - id: ruff
       args:
@@ -56,12 +56,12 @@ repos:
 
 # Static typehint linting.
 -   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v1.15.0
+    rev: v1.20.2
     hooks:
     -   id: mypy
 
 # Catch typos!
 -   repo: https://github.com/codespell-project/codespell
-    rev: v2.4.1
+    rev: v2.4.2
     hooks:
     -   id: codespell
