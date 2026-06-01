@@ -1,3 +1,13 @@
+Version 0.2.0
+-------------
+
+:Date: TBC
+
+* Removing explicit support and CI testing for EOL 3.9.
+* Adding explicit support and CI testing for 3.14.
+* Steaming via GZipFiles in `load` and `dump` file operations to reduce memory overhead.
+* Cleanup of distributed README contents.
+
 Version 0.1.2
 -------------
 

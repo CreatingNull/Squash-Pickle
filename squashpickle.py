@@ -31,14 +31,14 @@ def dump(
     buffer_callback=None,
 ):
     """Serialise the object to a file."""
-    file.write(
-        dumps(
+    with gzip.GzipFile(fileobj=file, mode="wb") as gz_file:
+        pickle.dump(
             obj,
+            gz_file,
             protocol=protocol,
             fix_imports=fix_imports,
             buffer_callback=buffer_callback,
         )
-    )
 
 
 def loads(
@@ -69,10 +69,11 @@ def load(
     buffers=(),
 ):
     """Deserialize the object from file and return the result."""
-    return loads(
-        file.read(),
-        fix_imports=fix_imports,
-        encoding=encoding,
-        errors=errors,
-        buffers=buffers,
-    )
+    with gzip.GzipFile(fileobj=file, mode="rb") as gz_file:
+        return pickle.load(
+            gz_file,
+            fix_imports=fix_imports,
+            encoding=encoding,
+            errors=errors,
+            buffers=buffers,
+        )
