@@ -1,7 +1,7 @@
 Version 0.2.0
 -------------
 
-:Date: TBC
+:Date: 13-June-2026
 
 * Removing explicit support and CI testing for EOL 3.9.
 * Adding explicit support and CI testing for 3.14.
